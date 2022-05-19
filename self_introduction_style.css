@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap'); 
 
 body {
     width: auto;
@@ -7,6 +7,13 @@ body {
     background-color: gray;
     background-size: cover;
     font-family: 'Dongle', sans-serif;
+}
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    display: inline-block;
+    color:black;
+    text-decoration:none;
+    text-align: center;
+    width: 160px;
 }
 nav {
     width: auto;
@@ -17,9 +24,10 @@ nav {
     font-weight: 1000;
     font-size: 30px;
 }
-span {
-    margin-left: 50px;
-    margin-right: 50px;
+.nav_link {
+    width: 80px;
+    height: auto;
+    margin-left: 40px;
 }
 section {
     text-align: center;
@@ -40,7 +48,7 @@ article {
     margin: 50px;
     font-size: 25px;
 }
-#Like_image {
+.like_image {
     width: 80px;
     height: 80px;
     margin: 50px;
