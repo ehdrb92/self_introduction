@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap'); 
 
+/***** entire page area *****/
+
 body {
-    width: auto;
     height: 100vh;
     margin: 0px;
     background-color: gray;
     background-size: cover;
     font-family: 'Dongle', sans-serif;
 }
-a, a:link, a:visited, a:focus, a:hover, a:active{
+
+/***** nav menu area *****/
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active{
     display: inline-block;
     color:black;
     text-decoration:none;
@@ -16,7 +25,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
     width: 160px;
 }
 nav {
-    width: auto;
     list-style: none;
     text-align: center;
     padding-top: 30px;
@@ -26,30 +34,41 @@ nav {
 }
 .nav_link {
     width: 80px;
-    height: auto;
     margin-left: 40px;
 }
+
+/***** main text area *****/
+
 section {
     text-align: center;
     width: auto;
     height: 800px;
 }
 h1 {
-    width: auto;
-    height: auto;
     margin: 50px;
     font-size: 70px;
 }
+
+/* index page */
+
 #my_picture {
     width: 600px;
-    height: auto;
 }
-article {
+#article_index {
     margin: 50px;
     font-size: 25px;
 }
-.like_image {
+
+/* Like page */
+
+#like_image {
     width: 80px;
     height: 80px;
     margin: 50px;
+}
+
+/* contact page */
+
+#article_contact {
+    font-size: 30px;
 }
