@@ -25,7 +25,6 @@ a:active{
     width: 160px;
 }
 nav {
-    list-style: none;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -53,6 +52,7 @@ h1 {
 
 #my_image {
     width: 600px;
+    margin: 40px;
 }
 #section_index {
     margin: 50px;
