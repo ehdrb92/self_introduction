@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="self_introduction_style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="image/user.png">
         <title>About Me</title>
     </head>
     <body>
         <nav>
-            <a href="index.html"><div class="nav_link">Who</div></a>
-            <a href="self_introduction_Like.html"><div class="nav_link">Like</div></a>
-            <a href="self_introduction_Contact.html" ><div class="nav_link">Contact</div></a>
+            <a href="#section_who"><div class="nav_link">Who</div></a>
+            <a href="#section_like"><div class="nav_link">Like</div></a>
+            <a href="#section_contact" ><div class="nav_link">Contact</div></a>
         </nav>
         <main>
-            <h1>Who</h1>
-            <section id="section_index">
-                <img src="profile_picture.jpg" alt="my_picture" id="my_image">
-                <article>
-                    상상을 현실로 만드는 백엔드 개발자를 목표로 하는 김동규입니다.<br><br>
-                    위코드 35기에 함께하게 되어 반갑습니다.
-                </article>
+            <!-- who page -->
+            <section id="section_who">
+                <div class="contents_box">
+                    <h1>Who</h1>
+                    <img src="image/profile_picture.jpg" alt="my_picture" id="my_image">
+                    <div>
+                        상상을 현실로 만드는 백엔드 개발자를 목표로 하는 김동규입니다.<br><br>
+                        위코드 35기에 함께하게 되어 반갑습니다.
+                    </div>
+                </div>
             </section>
+            <!-- like page -->
+            <section id="section_like">
+                <div class="contents_box">
+                    <h1>Like</h1>
+                    <img src="image/coding.gif" alt="exercise" id="like_image">
+                    <img src="image/running.gif" alt="game" id="like_image">
+                    <img src="image/watch.gif" alt="youtube" id="like_image">
+                </div>
+            </section>
+            <!-- contact page -->
+            <section id="section_contact">
+                <div class="contents_box">
+                    <h1>Contact</h1>
+                    <ul>
+                        <li class="contact_list">E-mail : kcj920407@gmail.com</li>
+                        <li class="contact_list">Github : github.com/ehdrb92</li>
+                        <li class="contact_list">Blog : velog.io/@ehdrb92</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- 맨 위로 올리기 -->
+            <a href="#" id="to_the_top"><img src="image/top.png" alt="to_the_top" id="top_image"></a>
         </main>
     </body>
 </html>
