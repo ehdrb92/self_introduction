@@ -2,40 +2,43 @@
 
 /***** entire page *****/
 
+html {
+    scroll-behavior:smooth;
+}
 body {
+    /* 배경색깔 적용 */
     height: 100vh;
-    margin: 0px;
     background-color: gray;
     background-size: cover;
+    /* 전체 폰트 적용 */
     font-family: 'Dongle', sans-serif;
-    scroll-behavior: smooth;
+    margin: 0px; /* 여백 조절 */
 }
 
 /***** nav menu *****/
 
 /* 메뉴바 링크 색 변경 및 고정 */
+
+#nav_menu {
+    display: flex;
+    flex: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* 글씨 진하기 및 크기 */
+    font-weight: 1000;
+    font-size: 40px;
+}
 a,
 a:link,
 a:visited,
 a:focus,
 a:hover,
 a:active{
-    display: inline-block;
+    margin: 0 auto;
     color:black;
     text-decoration:none;
     text-align: center;
     width: 160px;
-}
-nav {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-weight: 1000;
-    font-size: 30px;
-}
-.nav_link {
-    width: 80px;
-    margin-left: 40px;
 }
 
 /***** main text *****/
@@ -54,9 +57,10 @@ h1 {
 
 #section_who {
     font-size: 25px;
-    display: flex; /* flex를 이용한 콘텐츠 정 가운데 설정 */
-    align-items: center; /* flex를 이용한 콘텐츠 정 가운데 설정 */
-    justify-content: center; /* flex를 이용한 콘텐츠 정 가운데 설정 */
+    /* 콘텐츠 정 가운데 설정 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #my_image {
     width: 40%;
@@ -67,12 +71,14 @@ h1 {
 /*** Like page ***/
 
 #section_like{
-    display: flex; /* flex를 이용한 콘텐츠 정 가운데 설정 */
-    align-items: center; /* flex를 이용한 콘텐츠 정 가운데 설정 */
-    justify-content: center; /* flex를 이용한 콘텐츠 정 가운데 설정 */
+    /* 콘텐츠 정 가운데 설정 */
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
 #like_image {
-    width: 30%;
+    width: 300px;
+    height: 250px;
     margin: 50px;
 }
 
@@ -80,9 +86,10 @@ h1 {
 
 #section_contact {
     font-size: 30px;
-    display: flex; /* flex를 이용한 콘텐츠 정 가운데 설정 */
-    align-items: center; /* flex를 이용한 콘텐츠 정 가운데 설정 */
-    justify-content: center; /* flex를 이용한 콘텐츠 정 가운데 설정 */
+    /* 콘텐츠 정 가운데 설정 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 ul {
     list-style: none;
@@ -92,15 +99,14 @@ ul {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-#to_the_top{
+#top_btn {
     width: 50px;
     height: 50px;
-    position: fixed;
     bottom: 20px;
     right: 20px;
+    position: fixed;
 }
-#top_image{
-    text-align: center;
+#top_btn_img{
     width: 50px;
     height: 50px;
 }
